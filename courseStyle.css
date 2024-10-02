@@ -1,0 +1,214 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #EB5E28;
+}
+
+header {
+    background-color: #353535;
+    padding: 13px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;   
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #353535;
+    padding: 3px 25px;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: solid 1px white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #353535;
+}
+
+ul.nav-links {
+    margin-left: 29rem;
+}
+
+.container {
+    background-color: #403D39;
+    width: 80rem;
+    height: 35rem;
+    margin-top: 1.8rem;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerCards {
+    width: 35rem;
+    height: 31rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.cards img {
+    width: 7rem;
+    height: 7rem;
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoCourse {
+    width: 15rem;
+    height: 7rem;
+    background-color: #ffffff28;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin-left: 1rem;
+}
+
+a.buy {
+    margin-top: 1rem;
+    width: 4rem;
+    height: 7rem;
+    background-color: #32c80c5a;
+    color: rgba(255, 255, 255, 0.229);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    border-radius: 0px 140px 140px 0px;
+    font-size: 12px;
+}
+
+.buy:hover {
+    background-color: #4b4a4a28;
+    transition: .5s;
+    /* border: 1px solid black; */
+}
+
+.price {
+    position: relative;
+    bottom: -2.3rem;
+    right: .7rem;
+    color: rgba(255, 255, 255, 0.389);
+}
+.line {
+    background-color: #626262;
+    width: 30rem;
+    padding: .1px;
+    margin-left: 2rem;
+}
+
+.lineButton {
+    height: 5.5rem;
+    padding: .1px;
+    background-color: #303030;
+    margin-top: 1.8rem;
+    position: relative;
+}
+
+/* ======================= overlay ========================= */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.card-panel {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #353535;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.card-panel input {
+    border: solid .1px white;
+    border-radius: 20px;
+    background-color: #454444;
+    color: white;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.card-panel button {
+    color: white;
+    background-color: #353535;
+    border: solid 1px white;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.login {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-top: 2rem;
+    color: white;
+    background-color: #353535;
+    border: solid 1px white;
+    padding: 10px 55px;
+    border-radius: 12px;
+}
+.card-panel button:hover {
+    background-color: #2a2a2a;
+    transition: .5s;
+}

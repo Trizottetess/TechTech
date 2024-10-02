@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EB5E28;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #353535;
+    padding: 3px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;   
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #353535;
+    padding: 3px 25px;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: solid 1px white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #353535;
+}
+
+.containerCursos {
+    padding: 100px 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 33rem;
+    bottom: 12rem;
+}
+
+.cards {
+    border-radius: 12px;
+    background-color: white;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 4rem;
+    padding: 12px 12px;
+}
+
+.containerBall {
+    position: absolute;
+    top: 10rem; 
+    right: .5px; 
+}
+
+.logo {
+    position: absolute;
+    bottom: 25px; 
+    right: 22rem; 
+}
+
+.logoSite {
+    width: 36rem;
+    height: 9rem;
+}
+
+.more {
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    border: none;
+    border-radius: 12px;
+    background-color: #353535;
+    color: white;
+    top: 20rem;
+    left: 8.4rem;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.ballTwo {
+    position: absolute;
+    right: 17rem;
+    bottom: 17rem;
+}
+
+img.ballTwo {
+    animation: slidIn 1s ease-out forwards;
+}
+
+img.ballOne {
+    animation: slidOut 1s ease-in-out forwards;
+}
+
+@keyframes slidOut {
+    from {
+        opacity: 0;
+        transform: translate(300px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes slidIn {
+    from {
+        opacity: 0;
+        transform: translate(-300px);
+    }
+    to {
+        transform: translate(-15px);
+    }
+}
+
+img.cards {
+    width: 7rem;
+    height: 7rem;
+}
+
+ul.nav-links {
+    margin-left: 29rem;
+}

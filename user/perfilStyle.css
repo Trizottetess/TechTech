@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EB5E28;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #353535;
+    padding: 3px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;   
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #353535;
+    padding: 3px 25px;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    border: solid 1px white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.auth-buttons .btn:hover {
+    background-color: #353535;
+}
+
+.container {
+    width: 100%;
+    height: 35rem;
+    background-color: #353535;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border-radius: 5px;
+}
+
+.containerUser {
+    padding: 17rem 10rem;
+    width: 15rem;
+    height: 10rem;
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 2rem;
+}
+
+.picture {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 360px;
+    border: solid 1px #696767;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    align-self: center;
+}
+
+.line {
+    width: 20rem;
+    background-color: #626262;
+    padding: .1px;
+    position: absolute;
+    left: 1px;
+    bottom: 33.3rem;
+}
+
+.lineOne {
+    width: 20rem;
+    background-color: #626262;
+    padding: .1px;
+    position: absolute;
+    left: 1px;
+    top: 12rem;
+}
+
+.infoUser {
+    width: 25rem;
+    height: 15rem;
+    margin-left: 10rem;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.lineTwo {
+    background-color: #626262;
+    width: 18rem;
+    padding: .1px;
+    position: absolute;
+    margin-top: 2rem;
+    right: 1rem;
+}
+
+.lineTree {
+    background-color: #626262;
+    width: 18rem;
+    padding: .1px;
+    position: absolute;
+    margin-top: 4.8rem;
+    right: 1rem;
+}
+
+.lineFor {
+    background-color: #626262;
+    width: 18rem;
+    padding: .1px;
+    position: absolute;
+    margin-top: 7.4rem;
+    right: 1rem;
+}
+
+.lineFive {
+    width: 20rem;
+    background-color: #626262;
+    padding: .1px;
+    position: absolute;
+    left: 1px;
+    top: 32rem;
+}
+
+.lineHori {
+    height: 20rem;
+    background-color: #626262;
+    padding: 0px .1px;
+    position: absolute;
+    left: 30rem;
+    top: 12rem;
+}
+
+.containerCourse {
+    width: 43rem;
+    height: 95%;
+    position: absolute;
+    left: 25rem;
+    top: 20px;
+}
+
+.cards img {
+    padding: 15px; 
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 20px;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.cards {
+    background-color: #454444;
+    width: 10rem;
+    height: 15rem;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cancel {
+    border: none;
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.416);
+    font-family: "Inter", sans-serif;
+    margin-top: 1.8rem;
+    width: 10rem;
+    border-radius: 0px 0px 20px 20px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.cancel:hover {
+    transition: .5s;
+    background-color: rgb(191, 4, 4);
+}
+
+.lineCancel {
+    width: 7rem;
+    background-color: #353535;
+    padding: .2px;
+    position: relative;
+    top: 1.3rem;
+    left: 1.5rem;
+}
+
+.payments {
+    background-color: #454444;
+    padding: 6rem 17rem 0rem 0rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+p.formPay {
+    position: absolute;
+    margin-top: 4rem;
+}
+
+.iconCard {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: -5.5rem;
+    left: .6rem;
+}
+
+.iconAddCard {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 29rem;
+    left: 1.1rem;
+    cursor: pointer;
+}
+
+.cardText {
+    position: absolute;
+    top: 24.1rem;
+    left: 3.2rem;
+}
+
+.addText {
+    position: absolute;
+    top: 29.2rem;
+    left: 3.3rem;
+}
+/* ===================== add payment panel ========================*/
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+}
+
+.card-panel {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #353535;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1000;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.card-panel input {
+    border: solid .1px white;
+    border-radius: 20px;
+    background-color: #454444;
+    color: white;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.card-panel button {
+    color: white;
+    background-color: #353535;
+    border: solid 1px white;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.login {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    margin-top: 2rem;
+    color: white;
+    background-color: #353535;
+    border: solid 1px white;
+    padding: 10px 55px;
+    border-radius: 12px;
+}
+.card-panel button:hover {
+    background-color: #2a2a2a;
+    transition: .5s;
+}
